@@ -82,6 +82,10 @@ function FlagNO(props: FlagProps) {
   return <Flag {...props}><path fill="#EF2B2D" d="M10 5H4C1.791 5 0 6.791 0 9v6h10V5zm22 0H16v10h20V9c0-2.209-1.791-4-4-4zM10 31H4c-2.209 0-4-1.791-4-4v-6h10v10zm22 0H16V21h20v6c0 2.209-1.791 4-4 4z" /><path fill="#002868" d="M14.5 5h-2.944l-.025 11.5H0v3h11.525L11.5 31h3V19.5H36v-3H14.5z" /><path fill="#EEE" d="M14.5 31H16V21h20v-1.5H14.5zM16 5h-1.5v11.5H36V15H16zm-4.5 0H10v10H0v1.5h11.5zM0 19.5V21h10v10h1.5V19.5z" /></Flag>;
 }
 
+function FlagTZ(props: FlagProps) {
+  return <Flag {...props}><path fill="#1EB53A" d="M4 5C1.791 5 0 6.791 0 9v15.627L26.456 5H4z" /><path fill="#00A3DD" d="M32 31c2.209 0 4-1.791 4-4V11.33L9.479 31H32z" /><path fill="#141414" d="M32 5h-2.532L0 26.638V27c0 2.209 1.791 4 4 4h2.467L36 9.318V9c0-2.209-1.791-4-4-4z" /><path fill="#FBD035" d="M26.456 5L0 24.627v2.011L29.468 5zM9.479 31L36 11.33V9.318L6.467 31z" /></Flag>;
+}
+
 function FlagPL(props: FlagProps) {
   return <Flag {...props}><path fill="#EEE" d="M32 5H4C1.791 5 0 6.791 0 9v9h36V9c0-2.209-1.791-4-4-4z" /><path fill="#DC143C" d="M0 27c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4v-9H0v9z" /></Flag>;
 }
@@ -176,6 +180,7 @@ export const flagComponents: Record<string, (props: FlagProps) => ReactElement> 
   nl: FlagNL,
   nb: FlagNO,
   nn: FlagNO,
+  sw: FlagTZ,
   pl: FlagPL,
   pt: FlagBR,
   ro: FlagRO,
