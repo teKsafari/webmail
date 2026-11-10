@@ -23,6 +23,7 @@ const LANGUAGES = [
   { value: 'fr', label: 'Français' },
   { value: 'he', label: 'עברית' },
   { value: 'it', label: 'Italiano' },
+  { value: 'sw', label: 'Kiswahili' },
   { value: 'hu', label: 'Magyar' },
   { value: 'lv', label: 'Latviešu' },
   { value: 'nl', label: 'Nederlands' },

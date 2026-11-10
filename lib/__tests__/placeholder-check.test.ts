@@ -90,6 +90,8 @@ describe('findUnfilledPlaceholders', () => {
     ['ru', '[Ваше имя]'],
     ['ru', '[Укажите дату]'],
     ['sk', '[Vaše meno]'],
+    ['sw', '[Jina lako]'],
+    ['sw', '[Ingiza tarehe]'],
     ['tr', '[Adınız]'],
     ['tr', '[Tarih ekleyin]'],
     ['uk', '[Ваше ім’я]'],
